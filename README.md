@@ -1,12 +1,12 @@
-# Stellar Notes DApp
+# TIMEY
 
-**Stellar Notes DApp** - Blockchain-Based Decentralized Note-Taking System
+**Timey** - Blockchain-Based Decentralized Note-Taking System with added time stamp
 
 ---
 
 ## Project Description
 
-Stellar Notes DApp is a decentralized smart contract solution built on the Stellar blockchain using Soroban SDK. It provides a secure, immutable platform for managing personal notes directly on the blockchain. The contract ensures that your data is stored transparently and is only manageable through predefined smart contract functions, eliminating reliance on centralized database providers.
+TIMEY is a decentralized smart contract solution built on the Stellar blockchain using Soroban SDK. It provides a secure, immutable platform for managing personal notes directly on the blockchain. The contract ensures that your data is stored transparently and is only manageable through predefined smart contract functions, eliminating reliance on centralized database providers.
 
 The system allows users to create, view, and delete notes, leveraging the efficiency and security of the Stellar network. Each note is uniquely identified and stored within the contract's instance storage, ensuring data persistence and reliability.
 
@@ -225,7 +225,7 @@ Traditional note-taking applications rely on centralized databases that can:
 - censored,
 - or permanently lost.
 
-Stellar Notes DApp solves this by storing note data directly on-chain using smart contracts. Every note creation is verifiable, timestamped, and immutable, ensuring a transparent and trustless experience.
+TIMEY solves this by storing note data directly on-chain using smart contracts. Every note creation is verifiable, timestamped, and immutable, ensuring a transparent and trustless experience.
 
 This project demonstrates how blockchain technology can move beyond finance into decentralized productivity tools and personal data sovereignty.
 
@@ -245,6 +245,6 @@ This project is open-source and available for educational and development purpos
 
 ---
 
-# Stellar Notes DApp
+# TIMEY
 
 ### Securing Your Thoughts on the Blockchain 🚀
