@@ -86,3 +86,165 @@ Each stored note contains:
     content: String,
     created_at: u64
 }
+```
+
+### Timestamp Information
+
+The `created_at` field stores the Stellar ledger timestamp when the note was created.
+
+Example:
+
+```json
+{
+  "id": 101,
+  "title": "Blockchain Idea",
+  "content": "Build decentralized notes app",
+  "created_at": 1716462000
+}
+```
+
+This timestamp is immutable and generated directly from the Stellar blockchain ledger.
+
+---
+
+## Contract Details
+
+| Detail | Information |
+|--------|-------------|
+| Contract ID | `CCMGUC4Q26J63RSCR7NPYFEJJ7TSO5RTV67OD3NTDWDXJGIYKNWGWMLE` |
+| Network | Stellar Soroban |
+| Language | Rust |
+| Framework | Soroban SDK |
+
+---
+
+## Future Scope
+
+### Short-Term Enhancements
+
+1. **Note Encryption**  
+   Support for end-to-end encryption of note content for enhanced privacy
+
+2. **Category Management**  
+   Add tags and categories to organize notes efficiently
+
+3. **Rich Text Support**  
+   Extend support beyond plain text to include Markdown and formatted content
+
+4. **Search Functionality**  
+   Implement advanced search filters for large note collections
+
+---
+
+### Medium-Term Development
+
+5. **Collaborative Notes**
+   - Shared access for multiple addresses
+   - Permission-based editing and viewing
+   - Version history tracking
+
+6. **Notification System**  
+   Off-chain bridge to alert users of new updates or shared notes
+
+7. **Asset Attachment**  
+   Capability to attach digital assets or tokens to specific notes
+
+8. **Inter-Contract Integration**  
+   Allow other smart contracts to interact with and store data in the notes contract
+
+---
+
+### Long-Term Vision
+
+9. **Cross-Chain Synchronization**  
+   Extend note storage to multiple blockchain networks
+
+10. **Decentralized UI Hosting**  
+    Host the frontend on IPFS or similar decentralized platforms
+
+11. **AI-Powered Summarization**  
+    Optional integration with AI to help users summarize their notes
+
+12. **Privacy Layers**  
+    Implement zero-knowledge proofs for completely private note content
+
+13. **DAO Governance**  
+    Community-driven protocol improvements and feature prioritization
+
+14. **Identity Management**  
+    Integration with decentralized identity (DID) systems for user management
+
+---
+
+### Enterprise Features
+
+15. **Corporate Documentation**  
+    Adapt the system for secure corporate record-keeping
+
+16. **Immutable Logging**  
+    Create time-locked logs for audit purposes
+
+17. **Automated Reporting**  
+    Automatic note triggers for periodic reporting
+
+18. **Multi-Language Support**  
+    Expand accessibility with internationalization
+
+19. **Advanced Timestamp Analytics**
+    - Track note activity over time
+    - Historical timeline visualization
+    - Smart reminders based on timestamps
+    - Time-based filtering and sorting
+
+---
+
+## Technical Requirements
+
+- Soroban SDK
+- Rust programming language
+- Stellar blockchain network
+
+---
+
+## Getting Started
+
+Deploy the smart contract to Stellar's Soroban network and interact with it using the main functions:
+
+- `create_note()` - Create a new note with a title, content, and automatic blockchain timestamp
+- `get_notes()` - Retrieve all stored notes from the contract
+- `delete_note()` - Remove a specific note by its ID
+
+---
+
+## Why Stellar Notes DApp?
+
+Traditional note-taking applications rely on centralized databases that can:
+
+- be hacked,
+- manipulated,
+- censored,
+- or permanently lost.
+
+Stellar Notes DApp solves this by storing note data directly on-chain using smart contracts. Every note creation is verifiable, timestamped, and immutable, ensuring a transparent and trustless experience.
+
+This project demonstrates how blockchain technology can move beyond finance into decentralized productivity tools and personal data sovereignty.
+
+---
+
+## Built With
+
+- Rust
+- Soroban SDK
+- Stellar Blockchain
+
+---
+
+## License
+
+This project is open-source and available for educational and development purposes.
+
+---
+
+# Stellar Notes DApp
+
+### Securing Your Thoughts on the Blockchain 🚀
